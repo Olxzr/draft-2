@@ -46,13 +46,14 @@ li:hover{
     height: 30px;
 }
 .container{
-    width: 1300px;
+    max-width: 1300px;
     display: flex;
     justify-content: space-between;
     margin: 50px auto;
     padding: 10px;
 }
 .left{
+    color: red;
     width: 500px;
     padding: 15px;
     text-align: center;
@@ -77,6 +78,7 @@ li:hover{
     align-items: center;
 }
 .right{
+    color: red;
     width: 500px;
     padding: 15px;
     text-align: center;
@@ -123,4 +125,49 @@ li:hover{
     background-size: cover;
     transition: 1s;
     color: white;
+}
+
+@media (max-width:1300px){
+    .container{
+        width: 970px;
+    }
+    .left{
+        width: 400px;
+    }
+    .right{
+        width: 400px;
+    }
+    .left-2{
+        width: 400px;
+    }
+    .right-2{
+        width: 400px;
+    }
+}
+@media (max-width:970px){
+    body{
+        min-width: 730px;
+    }
+    .container{
+        width: 700px;
+        flex-wrap: wrap;
+    }
+    .left{
+        width: 530px;
+        margin: auto;
+        margin-bottom: 65px;
+    }
+    .right{
+        width: 530px;
+        margin: auto;
+    }
+    .left-2{
+        width: 530px;
+        margin: auto;
+        margin-bottom: 65px;
+    }
+    .right-2{
+        width: 530px;
+        margin: auto;
+    }
 }
