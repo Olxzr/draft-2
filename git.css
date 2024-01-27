@@ -174,12 +174,12 @@ li:hover{
 
 .kub{
     display: flex;
-    align-items: end;
+    align-items: center;
     justify-content: center;
     width: 1100px;
     height: 500px;
     margin: 70px auto;
-    background: linear-gradient(196deg, rgba(2,0,36,1) 0%, rgba(117,195,73,1) 27%, rgba(62,97,191,1) 56%, rgba(0,212,255,1) 86%);
+    background: linear-gradient(196deg, rgba(2,0,36,1) 0%, rgb(195, 108, 73) 27%, rgb(209, 60, 184) 56%, rgb(77, 252, 121) 86%);
 }
 
 .proz{
@@ -190,7 +190,10 @@ li:hover{
 }
 
 .a1{
-    height: 50px;
+    height: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-bottom: 10px;
     color: rgb(255, 255, 255);
 }
